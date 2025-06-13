@@ -1,49 +1,31 @@
 body {
     background-color: #ffe4ec;
-    color: rgb(30, 20, 20);
-    font-family: 'Georgia', sans-serif;
+    color: #3b2a2a;
+    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
 }
 
 .header {
     background-color: #9f5e6a;
     text-align: center;
-    padding: 60px 0;
+    padding: 40px 20px;
+    color: #fff;
 }
 
 .logo {
-    font-size: 60px;
-    font-weight: bold;
-    color: #f1ebee;
+    font-size: 40px;
     margin: 0;
-}
-
-.header p {
-    font-size: 18px;
-    color: #fff;
 }
 
 .btn {
     display: inline-block;
-    background-color: #efefef;
-    color: rgb(19, 16, 16);
-    padding: 12px 24px;
+    background-color: #f3d8e1;
+    color: #2b1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
     text-decoration: none;
-    border-radius: 25px;
-    font-weight: bold;
     margin-top: 15px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #d56793;
 }
 
 .imagen-cafe {
@@ -52,165 +34,61 @@ body {
 }
 
 .imagen-cafe img {
-    width: 200px;
-    border-radius: 30px;
-    box-shadow: 0 20px 40px rgba(24, 15, 25, 0.2);
+    width: 180px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .bienvenida {
     text-align: center;
-    padding: 40px;
+    padding: 30px 20px;
 }
-
-.bienvenida h2 {
-    color: #171515;
-    font-size: 28px;
-}
-
-.bienvenida p {
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.galeria {
-    background-color: #563535;
-    color: rgb(140, 10, 10);
-    padding: 150px 0;
-    text-align: center;
-}
-
-.galeria h2 {
-    color: #ffe4ec;
-}
-
-.galeriatres {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.galeriatres img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.seccion-menu {
-    background-color: rgb(188, 123, 123);
-    text-align: center;
-    padding: 30px 0;
-}
-
-.seccion-menu h2 {
-    margin-bottom: 10px;
-}
-
-.seccion-menu img {
-    width: 50px;
-    border-radius: 100px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.cuadro-rosada {
-    background-color: #ab576f;
-    color: #5a3a3a;
-    text-align: center;
-    padding: 30px 50px;
-    border-top: 50px dashed #582b2b;
-}
-
-.cuadro-rosada img {
-    width: 100px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border: 1px solid #111010;
-    font-family: inherit;
-}
-
-button[type="submit"] {
-    background-color: #e17db1;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-    background-color: #3d0d21;
-}
-
-footer {
-    background-color: #fff7f7;
-    color: #010101;
-    padding: 1px 0;
-    text-align: left;
-}
-
 
 .productos-grid {
-    background-color: #703b3b;
-    padding: 80px 0;
+    background-color: #fbe9ec;
+    padding: 40px 20px;
     text-align: center;
-}
-
-.productos-grid h2 {
-    font-size: 32px;
-    color: #7d4951;
-    margin-bottom: 40px;
 }
 
 .grid-productos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .producto {
-    background-color: rgb(223, 216, 216);
-    padding: 10px;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(97, 1, 1, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.producto:hover {
-    transform: translateY(-5px);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .producto img {
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
-
+    border-radius: 10px;
 }
 
 .producto h3 {
-    font-size: 18px;
-    color: #9d0d0d;
+    margin-top: 10px;
+    color: #7a2b2b;
+}
+
+.info {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f9cfd8;
+    color: #3e1f1f;
+}
+
+.footer {
+    background-color: #fff7f7;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
