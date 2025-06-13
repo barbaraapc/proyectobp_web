@@ -78,11 +78,34 @@ body {
     color: #7a2b2b;
 }
 
-.info {
+
+.imagenn {
+    width: 100px; 
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.seccion-menu {
+    background-color: rgb(188, 123, 123);
     text-align: center;
-    padding: 30px 20px;
-    background-color: #f9cfd8;
-    color: #3e1f1f;
+    padding: 30px 0;
+}
+
+.seccion-menu h2 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 26px;
+}
+ 
+
+.cuadro-rosada {
+    background-color: #a04d65;
+    color: #5a3a3a;
+    text-align: center;
+    padding: 30px 50px;
+    border-top: 50px dashed #582b2b;
 }
 
 .footer {
